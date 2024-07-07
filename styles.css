@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 15px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul.nav-links li {
+    margin-left: 20px;
+}
+
+nav ul.nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.bus-button {
+    background-color: #40f840;
+    color:black;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buy-tickets-btn {
+    background-color: #40f840;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.promo {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.promo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.promo .promo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+.offers {
+    display: flex;
+    justify-content: space-between; /* Adjust to space-between to manage space */
+    padding: 20px 20px; /* 20px padding top/bottom, 40px left/right */
+    gap: 30px; /* 30px gap between the offer boxes */
+}
+
+.offer, .offer2 {
+    background-color: #ffd700;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1; /* Ensure the offer boxes take equal space */
+}
+.btn {
+    text-align: center;
+    padding: 20px 0; /* Optional: Add padding to the top and bottom */
+}
+
+.btn button {
+    background-color:#f2f5f2; /* Customize as needed */
+    color: green; /* Customize as needed */
+    padding: 10px 20px; /* Customize padding */
+    cursor: pointer; /* Add pointer cursor */
+    font-size: 16px; /* Customize font size */
+    border-radius: 5px; /* Add border radius */
+    border: 2px solid green;
+}
+.section-details {
+    text-align: center; /* Centers text horizontally */
+    background-color: rgb(235, 230, 230);
+}
+
+
+.offer2{
+    background-color: #e9306d;
+}
+.off{
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #080808;
+    color:white;
+    
+  }
+  
+  .left-footer {
+    flex: 1;
+  }
+  
+  .right-footer {
+    flex: 1;
+    text-align: right;
+  }
+ 
+  .bus-selection {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.bus-selection {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.seat-selection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+
+
+.seats button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.booking-details {
+    width: 35%;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.booking-details p,
+.booking-details input,
+.booking-details button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.booking-details input,
+.booking-details button {
+    box-sizing: border-box;
+}
+
+.booking-details button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
